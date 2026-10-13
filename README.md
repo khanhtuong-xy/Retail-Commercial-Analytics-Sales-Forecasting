@@ -2,7 +2,17 @@
 # Retail Commercial Analytics & Sales Forecasting
 
 A portfolio project using **SQL, Python, and Power BI** to investigate retail performance, customer purchasing behavior, and the reliability of monthly sales forecasts.
+### Business Context and Data Source
 
+The dataset was accessed through [Xóm Data — Retails](https://dataset.xomdata.com/datasets/schema/retails). The accompanying business scenario describes a multinational retailer operating physical stores and an online channel.
+
+This project focuses on commercial performance, product profitability, customer purchasing behavior, and aggregate monthly sales forecasting. Cohort analysis addresses the scenario’s question of whether customers return after their first observed purchase.
+
+The analyzed extract contains **62,884 sales line items**, **26,326 orders**, and **11,887 purchasing customers**, covering **January 2016–20 February 2021**. It includes both physical-store and online transactions.
+
+Company-wide figures in the source narrative are contextual descriptions, not totals verified by this analysis. All reported project metrics are calculated from the analyzed extract.
+
+Delivery-delay analysis and the potential effect of new store openings on existing stores remain opportunities for future work. Customer retention patterns alone do not establish churn, and store-level sales changes alone would not prove cannibalization.
 ## Executive Summary
 
 The analysis covers **62,884 sales line items**, representing **26,326 orders** and **11,887 purchasing customers**. Total revenue was **$55.76 million**, with **$32.66 million in gross profit** and a **58.58% gross margin**.
