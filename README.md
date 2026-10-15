@@ -87,7 +87,7 @@ Holt-Winters with a damped additive trend and multiplicative seasonality was sel
 
 **Original fixed-origin test: forecasts for 12 months generated at the end of January 2020**
 
-| Model | MAE — units | WAPE |
+| Model | MAE - units | WAPE |
 |---|---:|---:|
 | Holt-Winters | 3,652.63 | 153.23% |
 | Seasonal naïve | 3,579.92 | 150.18% |
